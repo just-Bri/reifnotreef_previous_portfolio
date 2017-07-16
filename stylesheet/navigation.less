@@ -1,0 +1,68 @@
+// This is the first time I have made my own hamburger/navigation menu for mobile.
+// I didn't want to just copy+paste some random css/js from SO etc
+// It's deffinelty not the prettiest code, but it works!
+
+.containerNavTop {
+  clear: both;
+}
+.navTop {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: @flat-border;
+  .navTopList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  .navTopItemLeft {
+    float: left;
+    a {
+      &:hover {
+        transform: none;
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+  .navTopItem {
+    float: right;
+    @media @mobile {
+      display: none;
+    }
+  }
+}
+.navTopItem,
+.navTopItemLeft {
+  @media @mobile {
+    clear: both; 
+  }
+  color: black;
+  .topNavAnchor {
+    font-size: 1.5em;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    &:hover {
+      color: white;
+      background-color: black;
+      display: inline-block;
+      -webkit-transform: skew(-25deg);
+    	   -moz-transform: skew(-25deg);
+    	     -o-transform: skew(-25deg);
+    }
+  }
+}
+.skip {
+  display: none;
+  @media @mobile {
+    display: block;
+    float: right;
+    padding: 10px;
+    margin: 5px;
+  }
+}
