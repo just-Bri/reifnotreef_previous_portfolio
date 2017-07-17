@@ -1,0 +1,93 @@
+.navTop .navTopList {
+  border-top: 2px solid black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px 0;
+  overflow: hidden;
+  background-color: white;
+  float: right;
+  width: 100%;
+}
+.navTop .navTopItemLeft {
+  float: left;
+}
+.navTop .navTopItemLeft a:hover {
+  transform: none;
+  background-color: white;
+  color: black;
+}
+.navTop .navTopItem {
+  display: block;
+}
+.floatRight {
+  float: right;
+}
+@media only screen and (max-width: 768px) {
+  .floatRight {
+    width: 150px;
+    clear: both;
+  }
+}
+.floatRight .navTopItem {
+  float: left;
+}
+@media only screen and (max-width: 768px) {
+  .floatRight .navTopItem {
+    float: right;
+    display: none;
+  }
+}
+.navTopItem,
+.navTopItemLeft {
+  color: black;
+}
+.navTopItem .topNavAnchor,
+.navTopItemLeft .topNavAnchor {
+  font-size: 1.5em;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+}
+.navTopItem .topNavAnchor:hover,
+.navTopItemLeft .topNavAnchor:hover {
+  color: white;
+  background-color: black;
+  display: inline-block;
+  transform: skew(-25deg);
+  -webkit-transform: skew(-25deg);
+  -moz-transform: skew(-25deg);
+  -o-transform: skew(-25deg);
+}
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+  .skip {
+    display: none;
+  }
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+  .skip {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .skip {
+    display: block;
+    float: right;
+    padding: 10px;
+    margin: 5px;
+  }
+}
+.containerHello {
+  border-bottom: 2px solid black;
+}
+.defaultSizing {
+  border-bottom: 2px solid black;
+  margin: 0 20px 0;
+  overflow: hidden;
+}
+.defaultSizing p {
+  margin-left: 25px;
+  margin-right: 25px;
+}
