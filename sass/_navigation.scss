@@ -1,6 +1,13 @@
 // This is the first time I have made my own hamburger/navigation menu for mobile.
 // I didn't want to just copy+paste some random css/js from SO etc
 // It's deffinelty not the prettiest code, but it works!
+.containerNavTop {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
 .navTop {
   margin-left: 15px;
   .navTopList {
@@ -77,4 +84,10 @@
     padding: 10px;
     margin: 5px 5px 0px 0px;
   }
+}
+.navAnchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+  top: -65px;
 }

@@ -1,8 +1,13 @@
 @import "extend";
 @import "navigation";
+@import "mainContent";
 @import "hello";
 @import "footer";
-
+body {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
 .defaultSizing {
   border-bottom: $flat-border;
   margin: $marginDefault;

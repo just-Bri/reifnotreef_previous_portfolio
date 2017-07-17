@@ -1,3 +1,10 @@
+.containerNavTop {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto; }
+
 .navTop {
   margin-left: 15px; }
   .navTop .navTopList {
@@ -66,8 +73,17 @@
       padding: 10px;
       margin: 5px 5px 0px 0px; } }
 
+.navAnchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+  top: -65px; }
+
+.mainContent {
+  padding-top: 3.5em; }
+
 .containerHello {
-  border-bottom: 2px solid black; }
+  height: 50vh; }
 
 .containerFooter {
   border-bottom: none !important; }
@@ -80,6 +96,11 @@
   width: 18px;
   height: 18px;
   margin: 16px 5px; }
+
+body {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto; }
 
 .defaultSizing {
   border-bottom: 2px solid black;
