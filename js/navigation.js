@@ -5,9 +5,9 @@ if (navToggle) {
   navToggle.addEventListener("click",
   function(e) {
   if (nav.className == "navTopItem open") {
-    nav.className = "navTopItem";
+    nav.removeClass = "open";
   } else {
-    nav.className = "navTopItem open";
+    nav.addClass = "open";
   }
   e.preventDefault();
   }, false);
@@ -21,3 +21,11 @@ document.addEventListener('click', function(event) {
     nav.className = "navTopItem";
   }
 });
+
+// $('.hamburger').on('click', function () {
+//   $('.menu').addClass('open');
+// });
+
+// $( '.menu a' ).on("click", function(){
+//   $('.menu').removeClass('open');
+// });
