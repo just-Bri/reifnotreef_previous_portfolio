@@ -1,21 +1,22 @@
-.navTop .navTopList {
-  list-style-type: none;
-  margin: 0;
-  padding: 0 10px 0;
-  overflow: hidden;
-  background-color: white;
-  float: right;
-  width: 100%; }
-
-.navTop .navTopItemLeft {
-  float: left; }
-  .navTop .navTopItemLeft a:hover {
-    transform: none;
+.navTop {
+  margin-left: 15px; }
+  .navTop .navTopList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 0;
+    overflow: hidden;
     background-color: white;
-    color: black; }
-
-.navTop .navTopItem {
-  display: block; }
+    float: right;
+    width: 100%; }
+  .navTop .navTopItemLeft {
+    margin-left: 15px;
+    float: left; }
+    .navTop .navTopItemLeft a:hover {
+      transform: none;
+      background-color: white;
+      color: black; }
+  .navTop .navTopItem {
+    display: block; }
 
 .floatRight {
   float: right; }
@@ -28,13 +29,17 @@
     @media only screen and (max-width: 767px) {
       .floatRight .navTopItem {
         float: right;
-        display: none; } }
+        display: none;
+        width: 200px; } }
+  @media only screen and (max-width: 767px) {
+    .floatRight .navTopAnchorRight {
+      float: right; } }
 
 .navTopItem,
 .navTopItemLeft {
   color: black; }
-  .navTopItem .topNavAnchor,
-  .navTopItemLeft .topNavAnchor {
+  .navTopItem .navTopAnchor,
+  .navTopItemLeft .navTopAnchor {
     font-size: 1.5em;
     display: block;
     color: black;
@@ -42,8 +47,8 @@
     padding: 10px;
     margin: 5px;
     text-decoration: none; }
-    .navTopItem .topNavAnchor:hover,
-    .navTopItemLeft .topNavAnchor:hover {
+    .navTopItem .navTopAnchor:hover,
+    .navTopItemLeft .navTopAnchor:hover {
       color: white;
       background-color: black;
       display: inline-block;
@@ -59,7 +64,7 @@
       display: block;
       float: right;
       padding: 10px;
-      margin: 0 5px 2px; } }
+      margin: 5px 5px 0px 0px; } }
 
 .containerHello {
   border-bottom: 2px solid black; }
