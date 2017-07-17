@@ -3,7 +3,6 @@
 // It's deffinelty not the prettiest code, but it works!
 .navTop {
   .navTopList {
-    border-top: 2px solid black;
     list-style-type: none;
     margin: 0;
     padding: 0 10px 0;
@@ -28,13 +27,13 @@
 }
 .floatRight {
   float: right;
-  @media @mobile {
+  @media only screen and ($mobile) {
     width: 150px;
     clear: both;
   }
   .navTopItem {
     float: left;
-    @media @mobile {
+    @media only screen and ($mobile) {
       float: right;
       display: none;
     }
@@ -63,16 +62,11 @@
   }
 }
 .skip {
-  @media @tablet {
-      display: none;
-    }
-    @media @desktop {
-      display: none;
-    }
-  @media @mobile {
+  display: none;
+  @media only screen and ($mobile) {
     display: block;
     float: right;
     padding: 10px;
-    margin: 5px;
+    margin: 0 5px 2px;
   }
 }
