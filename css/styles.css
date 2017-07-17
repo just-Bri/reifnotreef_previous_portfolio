@@ -64,6 +64,18 @@
 .containerHello {
   border-bottom: 2px solid black; }
 
+.containerFooter {
+  border-bottom: none !important; }
+
+.centerContent {
+  display: flex;
+  justify-content: center; }
+
+.socIcon {
+  width: 18px;
+  height: 18px;
+  margin: 16px 5px; }
+
 .defaultSizing {
   border-bottom: 2px solid black;
   margin: 0 20px 0;

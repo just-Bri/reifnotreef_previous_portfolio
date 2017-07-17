@@ -19,5 +19,5 @@ document.addEventListener('click', function(event) {
   var isClickInside = specifiedElement.contains(event.target);
   if (!isClickInside && nav.className == "navTopItem open") {
     nav.className = "navTopItem";
-  } 
+  }
 });
