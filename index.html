@@ -47,25 +47,26 @@
 			</div>
 			<div class="containerContact defaultSizing">
 				<a class="navAnchor" id="contactMe"></a>
-				<p>Placeholder text.</p>
-				<p>This will be a contact form that sends me an email</p>
-				<form id="contactForm">
-					<div class="form-group">
-						<label for="name">Name:</label>
-						<input type="text" class="form-input" name="name" default="Personal or Company"/>
+				<p>If you'd like to get a hold of me please fill out the form below</p>
+				<form id="contactForm" class="defaultSizing">
+					<div class="contactFormContainer">
+						<div class="form-group">
+							<label for="name"class="contactLabel">Name:</label>
+							<input type="text" class="form-input contactInputName" name="name" placeholder="Personal or Company"/>
+						</div>
+						<div class="form-group">
+							<label for="email" class="contactLabel">Email Address:</label>
+							<input type="email" class="form-input contactInputEmail" name="email" placeholder="yourEmail@email.com"/>
+						</div>
+						<div class="form-group">
+							<label for="message"class="contactLabel">Message:</label>
+							<textarea type="text" class="form-input contactInputMessage" name="message" placeholder="Please include website url if Applicable"></textarea>
+						</div>
+						<div class="form-group" id="noStyling">
+							<input type="hidden" name="*honeypot" />
+						</div>
 					</div>
-					<div class="form-group">
-						<label for="email">Email Address:</label>
-						<input type="email" class="form-input" name="email"/>
-					</div>
-					<div class="form-group">
-						<label for="message">Message:</label>
-						<input type="text" class="form-input" name="message" default="Please include website url if Applicable"/>
-					</div>
-					<div class="form-group">
-						<input type="hidden" name="*honeypot" />
-					</div>
-					<button type="submit" class="btn btn-default">Submit Me</button>
+					<button type="submit" class="btn btn-default" id="contactSubmit">Submit Me</button>
 				</form>
 			</div>
 		</section>
