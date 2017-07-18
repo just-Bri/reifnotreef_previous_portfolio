@@ -19,6 +19,7 @@
             .contactInputMessage {
                 padding-left: 5px;
                 border: $thin-border;
+                min-width: 30vw !important;
                 max-width: 30vw !important;
                 @media only screen and ($mobile) {
                     max-width: 100% !important;

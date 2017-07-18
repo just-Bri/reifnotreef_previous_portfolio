@@ -106,6 +106,7 @@
       #contactForm .contactFormContainer .form-group .contactInputMessage {
         padding-left: 5px;
         border: 1px solid black;
+        min-width: 30vw !important;
         max-width: 30vw !important;
         float: right;
         margin: 0 auto !important;
