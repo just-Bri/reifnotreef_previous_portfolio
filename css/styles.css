@@ -80,7 +80,8 @@
   top: -65px; }
 
 .mainContent {
-  padding-top: 3.5em; }
+  padding-top: 3.5em;
+  overflow: auto; }
 
 .containerHello {
   height: 50vh; }
