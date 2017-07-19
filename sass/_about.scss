@@ -1,14 +1,13 @@
 .containerAbout {
-    margin: 0 auto;
-    margin-left: 25px;
-    margin-right: 25px;
     .aboutCopy {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
-        span {
-            width: 180px;
-            padding: 10px;
+        flex-direction: row;
+        align-items: flex-start;
+        p {
+            margin: 10px !important;
+            width: 200px !important;
         }
     }
 }

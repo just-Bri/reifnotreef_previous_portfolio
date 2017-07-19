@@ -87,19 +87,18 @@
   width: 100%;
   height: 50vh;
   margin: 0 auto;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-bottom: 5px; }
 
-.containerAbout {
-  margin: 0 auto;
-  margin-left: 25px;
-  margin-right: 25px; }
-  .containerAbout .aboutCopy {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; }
-    .containerAbout .aboutCopy span {
-      width: 180px;
-      padding: 10px; }
+.containerAbout .aboutCopy {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start; }
+  .containerAbout .aboutCopy p {
+    margin: 10px !important;
+    width: 200px !important; }
 
 .containerSkills #gitHubRepos {
   margin: 0 auto;
