@@ -35,6 +35,9 @@
 				<p>This will be copy with "Living/Studying/Working... blah"</p>
 			</div>
 			<div class="containerSkills defaultSizing">
+				<div id="gitHubRepos">
+
+				</div>
 				<a class="navAnchor" id="Skills"></a>
 				<p>Placeholder text.</p>
 				<p>This will be copy with "What, and how well, I know... blah"</p>
@@ -46,17 +49,19 @@
 			</div>
 			<div class="containerContact defaultSizing">
 				<a class="navAnchor" id="contactMe"></a>
-				<p>If you'd like to get a hold of me please fill out the form below</p>
-				<form action="https://formspree.io/bridgerrhammond@gmail.com"
+				
+				<form class="contactForm" action="https://formspree.io/bridgerrhammond@gmail.com"
 					method="POST">
-					<label>Name: </label>
-					<input type="text" name="name" placeholder="Personal or Company">
-					<label>Email: </label>
-					<input type="email" name="_replyto" placeholder="Your@email.com">
-					<label>Message: </label>
-					<textarea rows="4" name="_message"></textarea>
+					<p>If you'd like to get a hold of me please fill out the form below</p>
+					<label class="formLabel">Name: </label>
+					<input class="formInput" type="text" name="name" placeholder="Personal or Company">
+					<label class="formLabel">Email: </label>
+					<input class="formInput" type="email" name="email" placeholder="Your@email.com">
+					<label class="formLabel">Message: </label>
+					<textarea class="formInput" name="message" placeholder="Your message"></textarea>
+					<input type="hidden" name="_next" value="reifnotreef.github.io" />
 					<input type="text" name="_gotcha" style="display:none" />
-					<input type="submit" value="Send">
+					<input class="formSend" type="submit" value="Send">
 				</form>
 			</div>
 		</section>
@@ -71,8 +76,9 @@
 		<script src="vendor/jquery.min.js" type="text/javascript"></script>
 		<script src="vendor/jquery-ui.min.js" type="text/javascript"></script>
 		<script src="vendor/modernizr.min.js" type="text/javascript"></script>
-		<script src="js/main.js" type="text/javascript"></script>
-		<script src="js/contact.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>		
 		<script src="js/navigation.js" type="text/javascript"></script> 
+		<script src="js/skills.js" type="text/javascript"></script>
+		<script src="js/contact.js" type="text/javascript"></script>
   </body>
 </html>

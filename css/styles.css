@@ -89,9 +89,29 @@
   margin: 0 auto;
   padding-top: 10px; }
 
-#contactForm {
-  border-bottom: none !important;
+.containerSkills #gitHubRepos {
+  margin: 0 auto;
+  margin-left: 25px;
+  margin-right: 25px; }
+
+.containerContact {
   padding-bottom: 1em; }
+  .containerContact .contactForm {
+    border-bottom: none !important;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    clear: both; }
+    .containerContact .contactForm .formLabel {
+      float: left;
+      clear: both;
+      margin-bottom: 10px; }
+    .containerContact .contactForm .formInput {
+      float: right; }
+    .containerContact .contactForm .formSend {
+      margin-top: 10px;
+      float: right;
+      clear: both; }
 
 .containerFooter {
   border-bottom: none !important; }
