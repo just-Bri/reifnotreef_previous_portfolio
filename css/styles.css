@@ -83,8 +83,11 @@
   padding-top: 3.5em;
   overflow: auto; }
 
-.containerHello {
-  height: 50vh; }
+#helloSvg {
+  width: 100%;
+  height: 50vh;
+  margin: 0 auto;
+  padding-top: 10px; }
 
 #contactForm {
   border-bottom: none !important;
