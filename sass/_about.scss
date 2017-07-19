@@ -1,0 +1,14 @@
+.containerAbout {
+    margin: 0 auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    .aboutCopy {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        span {
+            width: 180px;
+            padding: 10px;
+        }
+    }
+}

@@ -3,5 +3,13 @@
         margin: 0 auto;
         margin-left: 25px;
         margin-right: 25px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .repoCard {
+            margin: 10px;
+            border: $thin-border;
+            width: 240px;
+        }
     }
 }

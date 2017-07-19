@@ -89,10 +89,29 @@
   margin: 0 auto;
   padding-top: 10px; }
 
-.containerSkills #gitHubRepos {
+.containerAbout {
   margin: 0 auto;
   margin-left: 25px;
   margin-right: 25px; }
+  .containerAbout .aboutCopy {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .containerAbout .aboutCopy span {
+      width: 180px;
+      padding: 10px; }
+
+.containerSkills #gitHubRepos {
+  margin: 0 auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .containerSkills #gitHubRepos .repoCard {
+    margin: 10px;
+    border: 1px solid black;
+    width: 240px; }
 
 .containerContact {
   padding-bottom: 1em; }
