@@ -129,6 +129,7 @@
     margin-top: 10px;
     border: 1px solid black;
     width: 200px;
+    height: 200px;
     padding: 10px; }
     @media only screen and (min-width: 768px) {
       .containerProjects #gitHubRepos .repoCard {

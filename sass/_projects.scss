@@ -6,7 +6,7 @@
             margin-left: 25px;
             margin-right: 25px;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             flex-wrap: wrap;
             flex-direction: row;
             align-items: flex-start;
@@ -16,6 +16,7 @@
             margin-top: 10px;
             border: $thin-border;
             width: 200px;
+            height: 200px;
             padding: 10px;
             @media only screen and (min-width: 768px) {
                 margin: 10px;
