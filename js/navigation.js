@@ -1,4 +1,4 @@
-// Using $(window).width so make sure navigation is not hidden on click when screen width is 768 or higher
+// Using $(window).width to make sure navigation is not hidden on click when screen width is 768 or higher
 if ( $(window).width() < 767) {      
     $('.skip').click(function() {
         $('.navTopItem').toggle();
