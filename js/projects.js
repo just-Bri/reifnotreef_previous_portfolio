@@ -2,7 +2,7 @@
 // Took me a while to figure out which specific request to use, and how to use the filters/query correctly.
 // But it's working as intended now!
 var apiUrl = "https://api.github.com/search/repositories?q=user:reifnotreef+fork:false"
-// search repos by username, filter toonly recieve non-forked repos!
+// search repos by username, filter to only recieve non-forked repos!
 var reposList = []
 var i = 0
 
