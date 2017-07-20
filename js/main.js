@@ -6,3 +6,6 @@
 //     "use strict";
 //     window.location.reload(); 
 // });
+// I need a new way to do this.
+// When on mobile(Android is all I tested so far) the keyboard hides when you tap on a text input area because the display is redrawn which triggers the above script.
+// Meh.
