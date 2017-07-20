@@ -16,9 +16,8 @@
     float: right;
     width: 100%; }
   .navTop .navTopItemLeft {
-    margin-left: 15px;
-    float: left;
-    padding: -5px; }
+    margin-left: 10px;
+    float: left; }
     @media only screen and (min-width: 769px) {
       .navTop .navTopItemLeft {
         border: 1px solid black;
