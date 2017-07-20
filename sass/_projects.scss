@@ -14,9 +14,10 @@
         .repoCard {
             margin: 0 auto;
             margin-top: 10px;
+            margin-bottom: 10px;
             border: $thin-border;
             width: 200px;
-            height: 200px;
+            height: 200px !important;
             padding: 10px;
             @media only screen and (min-width: 768px) {
                 margin: 10px;

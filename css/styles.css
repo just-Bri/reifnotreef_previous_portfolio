@@ -106,8 +106,7 @@
       align-items: flex-start; } }
   .containerAbout .aboutCopy p {
     padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 10px !important; }
+    padding-bottom: 5px; }
     @media only screen and (min-width: 769px) {
       .containerAbout .aboutCopy p {
         width: 200px !important; } }
@@ -120,16 +119,17 @@
       margin-left: 25px;
       margin-right: 25px;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
       flex-direction: row;
       align-items: flex-start; } }
   .containerProjects #gitHubRepos .repoCard {
     margin: 0 auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     border: 1px solid black;
     width: 200px;
-    height: 200px;
+    height: 200px !important;
     padding: 10px; }
     @media only screen and (min-width: 768px) {
       .containerProjects #gitHubRepos .repoCard {
