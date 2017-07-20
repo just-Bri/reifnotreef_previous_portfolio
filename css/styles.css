@@ -100,17 +100,27 @@
     margin: 10px !important;
     width: 200px !important; }
 
-.containerSkills #gitHubRepos {
-  margin: 0 auto;
-  margin-left: 25px;
-  margin-right: 25px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-  .containerSkills #gitHubRepos .repoCard {
-    margin: 10px;
+.containerProjects #gitHubRepos {
+  display: block; }
+  @media only screen and (min-width: 768px) {
+    .containerProjects #gitHubRepos {
+      margin: 0 auto;
+      margin-left: 25px;
+      margin-right: 25px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: flex-start; } }
+  .containerProjects #gitHubRepos .repoCard {
+    margin: 0 auto;
+    margin-top: 10px;
     border: 1px solid black;
-    width: 240px; }
+    width: 200px;
+    padding: 10px; }
+    @media only screen and (min-width: 768px) {
+      .containerProjects #gitHubRepos .repoCard {
+        margin: 10px; } }
 
 .containerContact {
   padding-bottom: 1em; }

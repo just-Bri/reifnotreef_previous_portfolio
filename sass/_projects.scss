@@ -1,0 +1,25 @@
+.containerProjects {
+    #gitHubRepos {
+        display: block;
+        @media only screen and (min-width: 768px) {
+            margin: 0 auto;
+            margin-left: 25px;
+            margin-right: 25px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+        .repoCard {
+            margin: 0 auto;
+            margin-top: 10px;
+            border: $thin-border;
+            width: 200px;
+            padding: 10px;
+            @media only screen and (min-width: 768px) {
+                margin: 10px;
+            }
+        }
+    }
+}
