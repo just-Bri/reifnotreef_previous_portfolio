@@ -17,7 +17,12 @@
     width: 100%; }
   .navTop .navTopItemLeft {
     margin-left: 15px;
-    float: left; }
+    float: left;
+    padding: -5px; }
+    @media only screen and (min-width: 769px) {
+      .navTop .navTopItemLeft {
+        border: 1px solid black;
+        border-bottom: none; } }
     .navTop .navTopItemLeft a:hover {
       transform: none;
       background-color: white;
@@ -91,14 +96,21 @@
   padding-bottom: 5px; }
 
 .containerAbout .aboutCopy {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: flex-start; }
+  margin: 0 auto; }
+  @media only screen and (min-width: 769px) {
+    .containerAbout .aboutCopy {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: flex-start; } }
   .containerAbout .aboutCopy p {
-    margin: 10px !important;
-    width: 200px !important; }
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px !important; }
+    @media only screen and (min-width: 769px) {
+      .containerAbout .aboutCopy p {
+        width: 200px !important; } }
 
 .containerProjects #gitHubRepos {
   display: block; }

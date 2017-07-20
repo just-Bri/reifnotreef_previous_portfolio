@@ -1,13 +1,20 @@
 .containerAbout {
     .aboutCopy {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: flex-start;
+        margin:  0 auto;
+        @media only screen and (min-width: 769px) {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: flex-start;
+        }
         p {
+            padding-top: 5px;
+            padding-bottom: 5px;
             margin: 10px !important;
-            width: 200px !important;
+            @media only screen and (min-width: 769px) {
+                width: 200px !important;
+            }
         }
     }
 }

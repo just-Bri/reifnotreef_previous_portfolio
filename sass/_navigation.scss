@@ -22,6 +22,11 @@
   .navTopItemLeft {
     margin-left: 15px;
     float: left;
+    padding: -5px;
+    @media only screen and (min-width: 769px) {
+      border: $thin-border;
+      border-bottom: none;
+    }
     a {
       &:hover {
         transform: none;
