@@ -11,7 +11,7 @@ $(document).ready(function(){
             var repoName = data.items[i].name;
             var repoDescription = data.items[i].description;
             var repoUrl = data.items[i].html_url;
-            console.log(data.items[i]);
+            // console.log(data.items[i]); Used this during testing
             document.getElementById("gitHubRepos").innerHTML += 
             "<div class='repoCard'>" + "<h3>" + repoName + "</h3>" + 
             "<p>" + repoDescription + "</p>" + 
