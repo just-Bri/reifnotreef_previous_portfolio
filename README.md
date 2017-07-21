@@ -7,4 +7,4 @@ I am using camelCase throughout, even for naming classes in my html etc. I have 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/reifnotreef/PersonalBeerTracker. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/reifnotreef/reifnotreef.github.io. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
