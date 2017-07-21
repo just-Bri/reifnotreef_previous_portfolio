@@ -1,7 +1,7 @@
 // Github API
 // Took me a while to figure out which specific request to use, and how to use the filters/query correctly.
 // But it's working as intended now!
-var apiUrl = "https://api.github.com/search/repositories?q=user:reifnotreef+fork:false";
+var apiUrl = "https://api.github.com/search/repositories?q=user:reifnotreef+fork:false&sort=updated";
 // search repos by username, filter to only recieve non-forked repos!
 var i = 0;
 
@@ -16,7 +16,7 @@ $(document).ready(function(){
             "<div class='repoCard'>" + "<h3>" + repoName + "</h3>" + 
             "<p>" + repoDescription + "</p>" + 
             "</br" +
-            "<p><a href='" + repoUrl + "' alt='Repo URL'>Link to Github</a></p>" + 
+            "<p>See it on <a href='" + repoUrl + "' alt='Repo URL'>Github</a></p>" + 
             "</div>";
         }});
 });
