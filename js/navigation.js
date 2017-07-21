@@ -2,7 +2,7 @@
 if ( $(window).width() < 767) {      
     $('.skip').click(function() {
         $('.navTopItem').toggle();
-    })
+    });
     $('.navTopItem').click(function(){
         $('.navTopItem').toggle();
     });
@@ -12,5 +12,5 @@ if ( $(window).width() < 767) {
                 $('.navTopItem').hide();
             }
         }
-    })
+    });
 }
