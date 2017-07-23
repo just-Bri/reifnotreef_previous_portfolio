@@ -10,6 +10,7 @@
             .projectAnchor {
                 @media only screen and ($mobile) {
                     opacity: 0.25 !important;
+                    z-index: 10;
                 }
             }
             #optimizeText {
@@ -26,6 +27,7 @@
                 bottom: 0px;
                 @media only screen and ($mobile) {
                     display: block !important;
+                    z-index: 10;
                 }
             }
             .projectCapture {
