@@ -1,32 +1,4 @@
 .containerProjects {
-    //Commenting out entire Repos section
-    //Need to hard code projects with images/links
-
-    // #gitHubRepos {
-    //     display: block;
-    //     @media only screen and (min-width: 768px) {
-    //         margin: 0 auto;
-    //         margin-left: 25px;
-    //         margin-right: 25px;
-    //         display: flex;
-    //         justify-content: space-around;
-    //         flex-wrap: wrap;
-    //         flex-direction: row;
-    //         align-items: flex-start;
-    //     }
-    //     .repoCard {
-    //         margin: 0 auto;
-    //         margin-top: 10px;
-    //         margin-bottom: 10px;
-    //         border: $thin-border;
-    //         width: 200px;
-    //         height: 200px !important;
-    //         padding: 10px;
-    //         @media only screen and (min-width: 768px) {
-    //             margin: 10px;
-    //         }
-    //     }
-    // }
     .projectsFlexContainer {
         display: flex;
         justify-content: space-around;
@@ -35,14 +7,9 @@
         margin: 25px;
         .projectContainer {
             margin: 10px;
-            h2,
-            p {
+            .projectTitle,
+            .projectDescription {
                 display: none;
-                color: black;
-                position: relative;
-                top: -300px;
-                right: -10px;
-                width: 180px;
             }
             .projectCapture {
                 background: black;
@@ -52,4 +19,75 @@
             }
         }
     }
+}
+figure {
+    margin: 0;
+    position: relative;
+}
+figure img {
+    display: block;
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    height: auto;
+}
+figure figcaption {
+    display: block;
+    position: absolute;
+    z-index: 5;
+}
+figure h3 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+figure span {
+    color: #b2cce1;
+    display: block;
+    line-height: 1.2;
+}
+figure a.close-caption {
+    display: block;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #315a7d;
+}
+figure a.close-caption.hidden {
+    display: none
+}
+
+#effect-4 figure {
+    overflow: hidden
+}
+#effect-4 figure a.close-caption {
+    bottom: 10px;
+    left: 10px;
+}
+#effect-4 figure figcaption {
+    background-color: steelblue;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    transform: translateX(-100%);
+    transition: all 0.5s;
+}
+#effect-4 figure img {
+    transition: all 0.3s;
+}
+.no-touch #effect-4 figure:hover img,
+#effect-4 figure.hover img {
+    transform: translateX(50%);
+}
+.no-touch #effect-4 figure:hover figcaption,
+#effect-4 figure.hover figcaption {
+    transform: translateX(0);
 }
