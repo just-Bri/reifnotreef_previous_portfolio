@@ -174,6 +174,10 @@
   height: 18px;
   margin: 16px 5px; }
 
+#initials {
+  width: 60px;
+  height: 18px; }
+
 body {
   width: 90%;
   max-width: 1080px;
