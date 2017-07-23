@@ -1,5 +1,4 @@
 .containerNavTop {
-  z-index: 20;
   position: fixed;
   top: 0;
   width: 90%;
@@ -101,8 +100,7 @@
     .containerAbout .aboutCopy {
       display: flex;
       justify-content: space-around;
-      align-items: flex-start;
-      } }
+      align-items: flex-start; } }
   .containerAbout .aboutCopy p {
     padding-top: 5px;
     padding-bottom: 5px; }

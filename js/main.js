@@ -9,3 +9,7 @@
 // I need a new way to do this.
 // When on mobile(Android is all I tested so far) the keyboard hides when you tap on a text input area because the display is redrawn which triggers the above script.
 // Meh.
+
+// Leaving the above comments intact for personal history/lesson.
+// I don't need a redraw, I had pretty much fixed the issue.
+// The only problem is if someone actively tries to break the nav menu by resizing the window rapidly.
