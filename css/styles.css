@@ -101,9 +101,8 @@
     .containerAbout .aboutCopy {
       display: flex;
       justify-content: space-around;
-      flex-wrap: wrap;
-      flex-direction: row;
-      align-items: flex-start; } }
+      align-items: flex-start;
+      } }
   .containerAbout .aboutCopy p {
     padding-top: 5px;
     padding-bottom: 5px; }
