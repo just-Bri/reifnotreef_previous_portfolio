@@ -118,6 +118,9 @@
   margin: 25px; }
   .containerProjects .projectsFlexContainer .projectContainer {
     margin: 10px; }
+    @media only screen and (max-width: 767px) {
+      .containerProjects .projectsFlexContainer .projectContainer .projectAnchor {
+        opacity: 0.25; } }
     .containerProjects .projectsFlexContainer .projectContainer #optimizeText {
       padding-left: 20px; }
     .containerProjects .projectsFlexContainer .projectContainer .projectCaption {
@@ -128,6 +131,9 @@
       position: relative;
       top: -290px;
       bottom: 0px; }
+      @media only screen and (max-width: 767px) {
+        .containerProjects .projectsFlexContainer .projectContainer .projectCaption {
+          display: block; } }
     .containerProjects .projectsFlexContainer .projectContainer .projectCapture {
       margin: 0 auto;
       width: 200px;
