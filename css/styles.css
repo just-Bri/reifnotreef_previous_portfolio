@@ -99,7 +99,7 @@
   @media only screen and (min-width: 769px) {
     .containerAbout .aboutCopy {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
       flex-direction: row;
       align-items: flex-start; } }
@@ -120,7 +120,7 @@
     margin: 10px; }
     @media only screen and (max-width: 767px) {
       .containerProjects .projectsFlexContainer .projectContainer .projectAnchor {
-        opacity: 0.25; } }
+        opacity: 0.25 !important; } }
     .containerProjects .projectsFlexContainer .projectContainer #optimizeText {
       padding-left: 20px; }
     .containerProjects .projectsFlexContainer .projectContainer .projectCaption {
@@ -128,13 +128,13 @@
       width: 180px;
       height: 0;
       margin: 0 auto;
-      margin-bottom: -40px;
+      margin-bottom: -30px;
       position: relative;
       top: -290px;
       bottom: 0px; }
       @media only screen and (max-width: 767px) {
         .containerProjects .projectsFlexContainer .projectContainer .projectCaption {
-          display: block; } }
+          display: block !important; } }
     .containerProjects .projectsFlexContainer .projectContainer .projectCapture {
       margin: 0 auto;
       width: 200px;
