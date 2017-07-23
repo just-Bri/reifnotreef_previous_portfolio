@@ -1,19 +1,19 @@
 .containerAbout {
-    .aboutCopy {
-        margin:  0 auto;
-        @media only screen and (min-width: 769px) {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            flex-direction: row;
-            align-items: flex-start;
-        }
-        p {
-            padding-top: 5px;
-            padding-bottom: 5px;
-            @media only screen and (min-width: 769px) {
-                width: 200px !important;
-            }
-        }
+  .aboutCopy {
+    margin: 0 auto;
+    @media only screen and (min-width: 769px) {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: flex-start;
     }
+    p {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      @media only screen and (min-width: 769px) {
+        width: 200px !important;
+      }
+    }
+  }
 }
