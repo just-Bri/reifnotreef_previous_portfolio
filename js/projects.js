@@ -1,9 +1,9 @@
-$('.projectAnchor').hover(
+$('.projectContainer').hover(
     function() {
-        $(this).fadeTo(0.25, 0.25);
-        $(this).siblings('figcaption').css("display","block");
+        $(this).children('a').fadeTo(0.25, 0.25);
+        $(this).children('figcaption').css("display","block");
     }, function() {
-        $(this).fadeTo(0.25, 1);
-        $(this).siblings('figcaption').css("display","none");
+        $(this).children('a').fadeTo(0.25, 1);
+        $(this).children('figcaption').css("display","none");
     }
 );
