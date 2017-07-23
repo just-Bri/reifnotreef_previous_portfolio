@@ -36,11 +36,16 @@
         .projectContainer {
             margin: 10px;
             h2,
-            p,
-            span {
+            p {
                 display: none;
+                color: black;
+                position: relative;
+                top: -300px;
+                right: -10px;
+                width: 180px;
             }
             .projectCapture {
+                background: black;
                 margin: 0 auto;
                 width: 200px;
                 height: 300px;
