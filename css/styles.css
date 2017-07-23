@@ -118,11 +118,17 @@
   margin: 25px; }
   .containerProjects .projectsFlexContainer .projectContainer {
     margin: 10px; }
-    .containerProjects .projectsFlexContainer .projectContainer .projectTitle,
-    .containerProjects .projectsFlexContainer .projectContainer .projectDescription {
-      display: none; }
+    .containerProjects .projectsFlexContainer .projectContainer #optimizeText {
+      padding-left: 20px; }
+    .containerProjects .projectsFlexContainer .projectContainer .projectCaption {
+      display: none;
+      width: 180px;
+      height: 0;
+      margin: 0 auto;
+      position: relative;
+      top: -290px;
+      bottom: 0px; }
     .containerProjects .projectsFlexContainer .projectContainer .projectCapture {
-      background: black;
       margin: 0 auto;
       width: 200px;
       height: 300px; }

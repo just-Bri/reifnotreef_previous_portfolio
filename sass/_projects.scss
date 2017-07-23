@@ -7,12 +7,19 @@
         margin: 25px;
         .projectContainer {
             margin: 10px;
-            .projectTitle,
-            .projectDescription {
+            #optimizeText {
+                padding-left: 20px;
+            }
+            .projectCaption{
                 display: none;
+                width: 180px;
+                height: 0;
+                margin: 0 auto;
+                position: relative;
+                top: -290px;
+                bottom: 0px;
             }
             .projectCapture {
-                background: black;
                 margin: 0 auto;
                 width: 200px;
                 height: 300px;
