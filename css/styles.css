@@ -1,3 +1,11 @@
+.defaultSizing {
+  border-bottom: 2px solid black;
+  margin: 0 20px 0;
+  overflow: hidden; }
+  .defaultSizing p {
+    margin-left: 25px;
+    margin-right: 25px; }
+
 .containerNavTop {
   position: fixed;
   top: 0;
@@ -182,11 +190,3 @@ body {
   width: 90%;
   max-width: 1080px;
   margin: 0 auto; }
-
-.defaultSizing {
-  border-bottom: 2px solid black;
-  margin: 0 20px 0;
-  overflow: hidden; }
-  .defaultSizing p {
-    margin-left: 25px;
-    margin-right: 25px; }
