@@ -10,12 +10,3 @@ $tablet: "min-width: 720px) and (max-width: 959px";
 // Mobile Media break
 $mobile: "max-width: 767px";
 // Default sizing for sections
-.defaultSizing {
-  border-bottom: $thick-border;
-  margin: $marginDefault;
-  overflow: hidden;
-  p {
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-}

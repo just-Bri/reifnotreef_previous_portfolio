@@ -1,3 +1,7 @@
+.mainContent {
+  padding-top: 3.5em;
+  overflow: auto; }
+
 .defaultSizing {
   border-bottom: 2px solid black;
   margin: 0 20px 0;
@@ -90,10 +94,6 @@
   position: relative;
   visibility: hidden;
   top: -65px; }
-
-.mainContent {
-  padding-top: 3.5em;
-  overflow: auto; }
 
 #helloSvg {
   width: 100%;
