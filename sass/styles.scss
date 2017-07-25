@@ -1,23 +1,15 @@
+// Import all sass files
 @import "extend";
-@import "navigation";
-@import "mainContent";
-@import "hello";
-@import "about";
-@import "projects";
-@import "contact";
-@import "footer";
+@import "sections/navigation";
+@import "sections/mainContent";
+@import "sections/hello";
+@import "sections/about";
+@import "sections/projects";
+@import "sections/contact";
+@import "sections/footer";
+// Center body and set max-width
 body {
   width: 90%;
   max-width: 1080px;
   margin: 0 auto;
-}
-
-.defaultSizing {
-  border-bottom: $thick-border;
-  margin: $marginDefault;
-  overflow: hidden;
-  p {
-    margin-left: 25px;
-    margin-right: 25px;
-  }
 }
