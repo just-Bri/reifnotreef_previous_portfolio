@@ -135,6 +135,9 @@
         .containerProjects .projectsFlexContainer .projectContainer .projectCaption {
           display: block !important;
           z-index: 10; } }
+      .containerProjects .projectsFlexContainer .projectContainer .projectCaption .projectText {
+        color: black;
+        text-decoration: none; }
     .containerProjects .projectsFlexContainer .projectContainer .projectCapture {
       margin: 0 auto;
       width: 200px;
