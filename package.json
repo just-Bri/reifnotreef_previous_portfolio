@@ -1,8 +1,14 @@
 {
-  "name": "reifnotreef.github.io",
+  "name": "workspace",
   "version": "1.0.0",
   "description": "WIP Portfolio",
   "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.1",
+    "hoek": "^5.0.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,13 +17,9 @@
     "url": "git+https://github.com/reifnotreef/reifnotreef.github.io.git"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/reifnotreef/reifnotreef.github.io/issues"
   },
-  "homepage": "https://github.com/reifnotreef/reifnotreef.github.io#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
-  }
+  "homepage": "https://github.com/reifnotreef/reifnotreef.github.io#readme"
 }
