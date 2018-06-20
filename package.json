@@ -1,25 +1,16 @@
 {
-  "name": "workspace",
-  "version": "1.0.0",
-  "description": "WIP Portfolio",
-  "main": "gulpfile.js",
+  "name": "reifnotreef.github.io",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.2.1",
-    "hoek": "^5.0.3"
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/reifnotreef/reifnotreef.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/reifnotreef/reifnotreef.github.io/issues"
-  },
-  "homepage": "https://github.com/reifnotreef/reifnotreef.github.io#readme"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
